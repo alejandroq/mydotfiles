@@ -12,6 +12,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 # go language
 export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
 export PATH=$GOPATH/bin:$PATH
 
 # Homebrew
@@ -19,3 +20,4 @@ export PATH=/usr/local/bin:$PATH
 
 # Pyenv
 eval "$(pyenv init -)"
+
