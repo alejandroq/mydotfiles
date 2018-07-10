@@ -7,17 +7,16 @@ export PS1="\[\033[36m\]\u\[\033[m\] @\[\033[32m\] \[\033[33;1m\]\w\[\033[m\] (\
 # added by Anaconda3 5.0.1 installer
 export PATH="/Users/alejandroquesada/anaconda3/bin:$PATH"
 
-# rust executables
+# rust bin
 export PATH="$HOME/.cargo/bin:$PATH"
 
-# go language
+# golang
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$GOPATH/bin:$PATH
 
-# Homebrew
+# homebrew
 export PATH=/usr/local/bin:$PATH
 
 # Pyenv
 eval "$(pyenv init -)"
-
