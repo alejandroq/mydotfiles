@@ -99,6 +99,9 @@ export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$GOPATH/bin:$PATH
 
+# python3.6 bin
+export PATH=/Users/alejandroquesada/Library/Python/3.6/bin/:$PATH
+
 # homebrew
 export PATH=/usr/local/bin:$PATH
 
